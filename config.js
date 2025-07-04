@@ -59,7 +59,7 @@ var config = {
             alignment: 'centered',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/5xhhgrMG/MEF-AAP-027-BAP-2025-06-20-07-20-04.png',
+            image: 'https://i.ibb.co/8DFtr84T/MEF-AAP-027-BAP-2025-07-04-09-42-19.png',
             description: '',
             location: {
                 center: [28.96451771366735 , 41.00314331950173],
