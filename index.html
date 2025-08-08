@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -15,7 +16,7 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: montserrat
+            font-family: montserrat;
         }
 
         a,
@@ -38,7 +39,14 @@
             z-index: 5;
         }
 
-       #header h1 {
+         #header {
+            margin: auto;
+            width: 45%;
+            position: relative;
+            z-index: 5;
+        }
+
+        #header h1 {
             margin: 0;
             padding-top: 15px;
             text-align: center;
@@ -52,6 +60,7 @@
             text-align: center;
             font-size: 12px;
         }
+
 
         #footer {
             width: 100%;
@@ -75,18 +84,18 @@
         }
 
         .centered {
-            width: 25vw;
+            width: 50vw;
             margin: 0 auto;
         }
 
         .lefty {
-            width: 35vw;
-            margin-left: 3vw;
+            width: 26vw;
+            margin-left: 1vw;
         }
 
         .righty {
-            width: 35vw;
-            margin-left: 60vw;
+            width: 55vw;
+            margin-left: 52vw;
         }
 
         .fully {
@@ -115,13 +124,16 @@
         }
 
         .step div {
-            padding: 0px 0px;
+            padding: 25px 50px;
             line-height: 25px;
             font-size: 13px;
         }
 
         .step img {
             width: 100%;
+            color: #44444441;
+            background-color: #fafafa2a;
+            
         }
 
         @media (max-width: 750px) {
@@ -130,7 +142,7 @@
             .lefty,
             .righty,
             .fully {
-                width: 0vw;
+                width: 90vw;
                 margin: 0 auto;
             }
         }
