@@ -11,7 +11,7 @@ var config = {
     theme: 'light',
     use3dTerrain: false,
     auto: false,
-    title: 'Arayıcı Esnafı / Street Cleaner',
+    title: 'Arayıcı Esnafı / Scavenger',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
